@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj - Landing Page Project</title>
+
+    <!-- google lato font cdn -->
+    <link rel="preconnet" href="https://font.googleleapis.com">
+    <link rel="preconnet" href="https://font.gstatic.com" crossorigin>
+    <link href="https://font.googleleapis.com/css2?family=lato:whgt@100;300;400;700;900&display=swap" rel="stylesheet"/>
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/EoiPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="style.css"/>
+
+</head>
+<body>
+    <header>
+        <!--nav bar is here-->
+        <nav id="navbar">
+            <div id="logo-container" >
+                <img src="./logo.png " alt="logo">
+                <h2>board</h2>
+            </div>
+            <ul id="nav-items">
+                <li>PRODUCTS</li>
+                <li>APP&GAMES</li>
+                <li>FEATURES</li>
+                <li>SUPPORT</li>
+                <li>ABOUT</li>
+            </ul>
+            <div class="right">
+                <img src="./shopping-bag-36959.png" alt="bag" width="20px">
+            </div>
+        </nav> 
+       <!--- main header --> 
+       <div id="main-header">
+        <div class="left">
+            <div class="big-text">
+                <span>LET YOUR</span>
+                <br>
+                <span>MIND</span>
+                <span class="gradient-text">EXPLORE</span>
+                <br>
+                <span>NEW WORLD</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi cumque temporibus eaque modi natus molestiae at, odit quaerat maxime suscipit.</p>
+            <div class="buttons">
+                <div class="btn btn1">BUY NOW</div>
+                <div class="btn">PLAY NOW</div>
+                
+                <div id="overview">
+                    <div class="overview-items">
+                        <h4>300+</h4>
+                        <h4>Unique style</h4>
+                    </div>
+                    <div class="overview-items">
+                        <h4 class="gradient-text">200+</h4>
+                        <h4>Project finish</h4>
+                    </div>
+                    <div class="overview-items">
+                        <h4>500+</h4>
+                        <h4>happy customer</h4>
+                    
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="right">
+            <img src="./pexels-hitesh-choudhary-2756843.jpg" alt="pexel" width="940px"> 
+        </div>
+       </div>
+       <!-- horizontal  band -->
+       <div class="band">
+        <div>
+            <img src="./Screenshot 2024-02-03 203848.png" alt="stam" width="20px">
+            ACTION - PACKED
+        </div>
+        
+            <div>
+                <img src="./Screenshot 2024-02-03 203848.png" alt="stam" width="20px">
+                 MIND - BENDING
+                </div>
+                <div>
+                    <img src="./Screenshot 2024-02-03 203848.png" alt="stam" width="20px">
+                    COLLECTION OG GAMES
+                </div>    
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+
+    <main>
+        <section class="choose-section">
+            <p class="choose-section-title">CHOOSE YOUR<br />
+                <span class="gradient-text">FAVOURITE</span>
+            </p>
+            <div class="Section-description">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto temporibus et voluptate odio modi atque numquam perferendis vitae rerum asperiores.</p>
+            </div>
+            <div class="image-carousel">
+                <img src="./pexels-eberhard-grossgasteiger-1366913.jpg" alt="gross" width="200px" height="200px">
+                <img class="center-img" src="./pexels-sebastiaan-stam-1097456.jpg" alt="sebas" width="200px">
+                <img src="./pexels-irina-iriser-1366957.jpg" alt="irina" width="200px">
+            </div>
+            <div class="butons">
+                <button class="btn btn1">VIEW ALL</button>
+                <button class="btn">PLAY NOW</button>
+            </div>
+        </section>
+
+        <!-- discover section-->
+        <section class="discover-section">
+            <div class="discover-card">
+                <img src="./pexels-cord-allman-19581395.jpg" alt="cord" width="200px" height="300px">
+                <div class="discover-card-details">
+                    <p class="big-text">DISCOVER<br /><span class="gradient-text">VIRTUAL</span>REALITY<br />GAMING</p>
+                    <p class="section description">A well designed gaming header often incorporated elements such as game characters , iconics 
+                        symbols , vibrant colors, and dynamic visuals to convey excitements , adventure and the immersive
+                        nature of gaming.</p>
+                    <button>
+                        <div
+                        class="dicover-card-details1">PLAY NOW
+                        </div>
+                    </button>
+                </div>
+            </div>
+           
+        </section>
+
+        <!-- demo card section -->
+        <section class="demo-cards-section">
+            <div class="buttons">
+                <button class="btn btn1">NEWEST GAMES</button>
+                <button class="btn">LATEST GAMES</button>
+                <button class="btn">FIGHT GAMES</button>
+                <button class="btn">SPORT GAMES</button>
+            </div>
+            <div class="demo-cards">
+                <div class="demo-card">
+                    <img src="./pexels-hitesh-choudhary-2519811.jpg" width="100px" height="100px"
+                </div>
+            </div>
+            
+        </section>
+    </main>
+</body>
+</html>

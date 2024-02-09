@@ -1,0 +1,261 @@
+body {
+    margin: 10;
+    padding: 100;
+    background-color: #2D1E68;
+    font-family:'Lato' , 'sans-serif';
+    box-sizing: border-box;
+}
+header {
+
+}
+
+#navbar {
+    margin: 10px;
+    width: 96%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+#logo-container {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+#logo-container img {
+    width: 25px;
+    height: 22px;
+}
+#nav-items {
+    display: flex;
+    width:500px ;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 900%;
+}
+#nav-items > li {
+    cursor: pointer;
+}
+
+#main-header{
+    margin: 14px;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    position: relative;
+
+}
+#main-header .left .big-text{
+    font-size: 35px;
+    color: rgb(238, 238, 245);
+    font-weight: 900;
+}
+#main-header .left{
+    
+    width: 80%;
+    top: 5px;
+    left: 6%;
+    height: 10%;
+    color: #ffffff;}
+
+#main-header{
+    width: 90%;
+    height: 90%;
+    
+    mix-blend-mode: color-dodge;
+
+}
+
+#main-header .right img {
+    width: 100vh;
+    
+}
+#main-header .left #overview{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    gap: 15px;
+}
+#main-header .left #overview  .overview-items{
+    display: flex
+    flex-direction:column;
+    align-items:center;
+}
+#main-header .left #overview .overview-items h4{
+    
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    
+}
+.gradient-text{
+    color: #ff00f2;
+}
+#main-header .left #overview .overview-items p{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+.buttons  {
+    display:flex;
+}
+.btn {
+    padding: 10px 20px; 
+    border: 5px solid #7d63f1;
+    margin: 1px 10px;
+    transform: skewX(-20deg);
+    cursor: pointer;
+    background-color: transparent;
+    color: #ffffff;
+}
+.btn1 {
+    background-color: #2d1e6b;
+    background: linear-gradient(45deg,#7d63f1 6%,#2c2c94 28%,#f805d0 97%);
+     
+
+}
+.band {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 10px;
+    margin-bottom: 100px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 900;
+    transform: rotate(-3deg);
+    background: #ffffff40;
+    box-shadow: 0 80px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    border: 1px solid #ffffff40;
+}
+
+.band img {
+    width: 25px;
+    height: 25px;
+}
+
+.choose-section{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.choose-section-title {
+    width: 40px;
+    font-weight: 900;
+}
+
+.section-description{
+    width: 500px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.choose-section .image-carousel {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.image-carousel img {
+    width: 400px;
+    height: 250px;
+}
+
+.image-carousel .center-img {
+    width: 600px;
+    height: 400px;
+    
+}
+
+.discover-section {
+    width: 70px;
+    margin: 100px 500px;
+    
+    
+
+}
+
+.discover-card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffffff;
+    border: 1px 2px solid #ffffff40;
+    border-radius: 7px;
+    backdrop-filter: blur(4px);
+    background: #35276D;
+    box-shadow: 0 8px 32px 0;
+    
+}
+
+.discover-card-details{
+    margin: 20px;
+}
+
+.discover-card img{
+    border: 1px;
+    width: 1000%;
+    align-self: flex-start;
+}
+
+.discover-card-details .big-text{
+    font-size: 50px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.discover-card-details-btn{
+    width: fit-content;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    transform: scaleX(-20deg);
+}
+
+.demo-cards-section{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    align-items: normal;
+    font-direction: column;
+    justify-content: center;
+    color: #ffffff;
+
+}
+
+.demo-cards{
+
+    margin: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.demo-card{
+    
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    padding: 10px 15px;
+    border: 7px;
+}
+
+
+
